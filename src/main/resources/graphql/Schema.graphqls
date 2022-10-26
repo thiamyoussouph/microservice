@@ -1,0 +1,9 @@
+type Query{
+compteliste: [compte],
+    comptebyid(id:String):compte  }
+type compte{
+    id:String,
+    date: String,
+    balance: Float
+    currency:String,
+    type:String     }
